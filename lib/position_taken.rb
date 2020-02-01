@@ -2,6 +2,6 @@
 def position_taken(arr,ind)
   if arr[idx] == " "
     return false
-  else 
+  else
     return true
 end
