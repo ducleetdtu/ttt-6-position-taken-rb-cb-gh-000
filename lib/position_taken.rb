@@ -4,4 +4,5 @@ def position_taken(arr,ind)
     return false
   else
     return true
+  end
 end
