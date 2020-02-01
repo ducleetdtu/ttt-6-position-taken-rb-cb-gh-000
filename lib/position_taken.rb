@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
 def position_taken(arr,ind)
-  if arr[idx] == " "
+  if arr[idx] == " " || arr[idx] == "" || arr[idx] == nil
     return false
-  else
+  elsif arr[idx] == "X" || arr[idx] == "O"
     return true
   end
 end
